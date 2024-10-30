@@ -1,0 +1,157 @@
+.cip-main #post-type {
+    height: 147px;
+    width: 100%;
+}
+
+.cip-main .field-block {
+    width: 25%;
+    float: left;
+}
+
+.cip-main .csv-block {
+    width: 25%;
+    float: left;
+}
+
+.cip-main .defaults-block {
+    width: 25%;
+    float: left;
+}
+
+.cip-main .clear-both {
+    clear: both;
+}
+
+.cip-main .post-type-block {
+    display: none;
+}
+
+.cip-main .hidden {
+    display: none;
+}
+
+.cip-main .row:before {
+    content: " ";
+    display: table;
+}
+
+.cip-main .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.cip-main .spinner {
+    float: none;
+}
+
+.cip-main .group-post {
+    max-width: 100%;
+}
+
+.cip-main input {
+    max-width: 100%;
+}
+
+.cip-main .meter {
+    height: 20px;
+    position: relative;
+    background: #555;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    border-radius: 25px;
+    padding: 10px;
+    -webkit-box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.3);
+    -moz-box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.3);
+    box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.3);
+}
+
+.cip-main .meter > span {
+    display: block;
+    height: 100%;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    background-color: rgb(43, 194, 83);
+    background-image: linear-gradient(to bottom, rgb(43, 194, 83) 37%, rgb(84, 240, 84) 69%);
+    box-shadow: inset 0 2px 9px rgba(255, 255, 255, 0.3),
+    inset 0 -2px 6px rgba(0, 0, 0, 0.4);
+    position: relative;
+    overflow: hidden;
+}
+
+.cip-main .animate > span > span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-image: linear-gradient(
+            -45deg,
+            rgba(255, 255, 255, .2) 25%,
+            transparent 25%,
+            transparent 50%,
+            rgba(255, 255, 255, .2) 50%,
+            rgba(255, 255, 255, .2) 75%,
+            transparent 75%,
+            transparent
+    );
+    z-index: 1;
+    background-size: 50px 50px;
+    animation: move 2s linear infinite;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    animation: move 2s linear infinite;
+}
+
+.cip-main .animate > span:after {
+    display: none;
+}
+
+.cip-main .progress {
+    -webkit-transition: 1000ms;
+    -moz-transition: 1000ms;
+    -ms-transition: 1000ms;
+    -o-transition: 1000ms;
+    transition: 1000ms;
+}
+
+@keyframes move {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 50px 50px;
+    }
+}
+
+@media all and (min-width: 783px) {
+    .cip-main .left-side {
+        width: 25%;
+        float: left;
+    }
+
+    .cip-main .right-side {
+        width: calc(75% - 20px);
+        margin-left: 20px;
+        float: left;
+    }
+}
+
+@media all and (max-width: 782px) {
+    .cip-main input, .cip-main select {
+        height: 36px;
+    }
+
+    .cip-main #post-type {
+        height: auto;
+    }
+}
+
+@media all and (max-width: 640px) {
+    .cip-main .defaults-block {
+        width: 50%;
+    }
+}

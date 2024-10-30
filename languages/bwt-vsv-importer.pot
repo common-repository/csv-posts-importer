@@ -1,0 +1,188 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: bwt-csv-importer\n"
+"POT-Creation-Date: 2017-03-06 12:36+0200\n"
+"PO-Revision-Date: 2016-12-29 12:07+0200\n"
+"Last-Translator: BWT group <azarenkov_ds@groupbwt.com>\n"
+"Language-Team: BWT group <azarenkov_ds@groupbwt.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_x;_n\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: languages\n"
+"X-Poedit-SearchPathExcluded-1: .git\n"
+
+#: class-bwt-csv-importer.php:75
+msgid "ID"
+msgstr ""
+
+#: class-bwt-csv-importer.php:76
+msgid "Post Date"
+msgstr ""
+
+#: class-bwt-csv-importer.php:77
+msgid "Post Date GTM"
+msgstr ""
+
+#: class-bwt-csv-importer.php:78
+msgid "Post Content Filtered"
+msgstr ""
+
+#: class-bwt-csv-importer.php:79
+msgid "Post Excerpt"
+msgstr ""
+
+#: class-bwt-csv-importer.php:80
+msgid "Post Status"
+msgstr ""
+
+#: class-bwt-csv-importer.php:81
+msgid "Ping Status"
+msgstr ""
+
+#: class-bwt-csv-importer.php:82
+msgid "Post Password"
+msgstr ""
+
+#: class-bwt-csv-importer.php:83
+msgid "Slug"
+msgstr ""
+
+#: class-bwt-csv-importer.php:84
+msgid "To Ping"
+msgstr ""
+
+#: class-bwt-csv-importer.php:85
+msgid "Pinged"
+msgstr ""
+
+#: class-bwt-csv-importer.php:86
+msgid "Post Parent"
+msgstr ""
+
+#: class-bwt-csv-importer.php:87
+msgid "Menu Order"
+msgstr ""
+
+#: class-bwt-csv-importer.php:88
+msgid "GUID"
+msgstr ""
+
+#: class-bwt-csv-importer.php:89
+msgid "Taxonomy"
+msgstr ""
+
+#: class-bwt-csv-importer.php:90
+msgid "Meta"
+msgstr ""
+
+#: class-bwt-csv-importer.php:93
+msgid "Post Content"
+msgstr ""
+
+#: class-bwt-csv-importer.php:94
+msgid "Post Title"
+msgstr ""
+
+#: class-bwt-csv-importer.php:95
+msgid "Comment Status"
+msgstr ""
+
+#: class-bwt-csv-importer.php:96
+msgid "Post Category"
+msgstr ""
+
+#: class-bwt-csv-importer.php:97
+msgid "Featured Image"
+msgstr ""
+
+#: class-bwt-csv-importer.php:106
+msgid "The script was interrupted. Try to import fewer posts"
+msgstr ""
+
+#: class-bwt-csv-importer.php:137
+#, php-format
+msgid "This plugin requires PHP version %s or higher."
+msgstr ""
+
+#: class-bwt-csv-importer.php:162
+msgid "CSV Importer Page"
+msgstr ""
+
+#: class-bwt-csv-importer.php:163
+msgid "CSV Importer"
+msgstr ""
+
+#: class-bwt-csv-importer.php:179
+msgid "Import CSV"
+msgstr ""
+
+#: class-bwt-csv-importer.php:212
+msgid "Invalid file"
+msgstr ""
+
+#: class-bwt-csv-importer.php:218
+msgid "File upload error"
+msgstr ""
+
+#: class-bwt-csv-importer.php:222
+msgid "Please select file"
+msgstr ""
+
+#: class-bwt-csv-importer.php:342
+msgid "File read error"
+msgstr ""
+
+#: views/main.php:5
+msgid "Dismiss this notice."
+msgstr ""
+
+#: views/main.php:10 views/table.php:1
+msgid "Step"
+msgstr ""
+
+#: views/main.php:19
+msgid "Upload file"
+msgstr ""
+
+#: views/progress.php:2
+msgid "Posts import progress:"
+msgstr ""
+
+#: views/progress.php:9
+msgid "Complete!"
+msgstr ""
+
+#: views/progress.php:11
+msgid "Total:"
+msgstr ""
+
+#: views/progress.php:12
+msgid "Posts inserted:"
+msgstr ""
+
+#: views/table.php:26
+msgid "Import"
+msgstr ""
+
+#: views/table.php:33
+msgid "Fields"
+msgstr ""
+
+#: views/table.php:36
+msgid "CSV"
+msgstr ""
+
+#: views/table.php:39
+msgid "Default Values"
+msgstr ""
+
+#: views/table.php:88
+msgid "Add field"
+msgstr ""
